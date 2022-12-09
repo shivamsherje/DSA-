@@ -19,7 +19,9 @@
 let n = 2;
 let arr = [1, 2];
 function arrofzeros(n, arr) {
+  
   let count1 = 0;
+
   let count2 = 0;
 
   for (let i = 0; i < n; i++) {
