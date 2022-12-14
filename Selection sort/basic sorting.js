@@ -8,6 +8,7 @@ function selectionSort(arr) {
         arr[j] = temp;
       }
     }
+    
   }
   let bag = "";
   for (let i = 0; i < arr.length; i++) {
