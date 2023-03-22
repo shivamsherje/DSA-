@@ -1,4 +1,6 @@
-function selectionSort(arr) {
+let arr = [64, 27, 1, 6, 32, 24, 15, 9];
+
+function SelectionSort(arr) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
       let temp = 0;
@@ -8,7 +10,6 @@ function selectionSort(arr) {
         arr[j] = temp;
       }
     }
-    
   }
   let bag = "";
   for (let i = 0; i < arr.length; i++) {
@@ -16,4 +17,5 @@ function selectionSort(arr) {
   }
   console.log(bag);
 }
-selectionSort([3, 5, 0, 9, 8]);
+
+SelectionSort(arr); // Output: 2 5 6 10 22 25
