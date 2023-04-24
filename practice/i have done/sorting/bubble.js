@@ -2,8 +2,8 @@ let arr = [64, 27, 1, 6, 32, 24, 15, 9];
 
 function solve(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
-    let temp = 0;
     for (let j = 0; j < arr.length - i - 1; j++) {
+      let temp = 0;
       if (arr[j] > arr[j + 1]) {
         temp = arr[j];
         arr[j] = arr[j + 1];
@@ -33,8 +33,7 @@ solve(arr);
 //       }
 //     } while (swapped)
 //   }
-  
+
 //   const arr = [8, 20, -2, 4, -6]
 //   bubbleSort(arr)
 //   console.log(arr.join(" ")) // [-6, -2, 4, 8, 20]
-  

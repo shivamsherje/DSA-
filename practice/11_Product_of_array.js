@@ -39,4 +39,4 @@ function Product(n, arr) {
   console.log(ans.join(" "));
 }
 
-Product(n, arr) 
+Product(n, arr);

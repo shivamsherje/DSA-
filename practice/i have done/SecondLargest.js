@@ -4,9 +4,9 @@ let arr = [5, 56, 39, 29, 12, 98, 100, 500];
 
 function findSecondlargest(arr) {
   let largest = Math.max(arr[0], arr[1]);
-
+  console.log(largest);
   let secondlargest = Math.min(arr[0], arr[1]);
-
+  console.log(secondlargest);
   for (let i = 2; i < arr.length; i++) {
     if (arr[i] > largest) {
       secondlargest = largest;

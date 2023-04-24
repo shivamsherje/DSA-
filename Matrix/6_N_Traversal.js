@@ -17,21 +17,21 @@ let matrix = [
 ];
 
 function NTraversal(N, matrix) {
-    let row=matrix.length-1;
-    let col=matrix[0].length;
-    let bag=""
-    
-    for(let i=row; i>=0; i--){
-        bag=bag+matrix[i][0]+" "
-    }
-    for( i=1;  i<matrix.length;  i++){
-        bag=bag+matrix[i][i]+" "
-    }
-    for(let i=matrix.length-2; i>=0; i--){
-        bag=bag+matrix[i][matrix.length-1]+" "
-    }
-    
-    console.log(bag)
-    }
-    
+  let row = matrix.length - 1;
+  let col = matrix[0].length;
+  let bag = "";
+
+  for (let i = row; i >= 0; i--) {
+    bag = bag + matrix[i][0] + " ";
+  }
+  for (i = 1; i < matrix.length; i++) {
+    bag = bag + matrix[i][i] + " ";
+  }
+  for (let i = matrix.length - 2; i >= 0; i--) {
+    bag = bag + matrix[i][matrix.length - 1] + " ";
+  }
+
+  console.log(bag);
+}
+
 NTraversal(N, matrix);

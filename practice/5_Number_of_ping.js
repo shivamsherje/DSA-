@@ -9,8 +9,8 @@
 // pingping
 
 // Sample Output 1
-
 // 2
+
 let n=8;
 let str ="pingping"
 
